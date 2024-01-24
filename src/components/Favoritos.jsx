@@ -34,7 +34,7 @@ export const Favoritos = () => {
         <div>
 
             <div>
-                <h1>Elige tus personajes Favoritos</h1>
+                <h1 className='text-red-500 font-bold'>Elige tus personajes Favoritos</h1>
                 {personajesFavoritos.map((personaje)=>(
                     <div style={{border: "1px solid black", padding: "20px", marginTop: "25px"}} key={personaje.id}>
                         <p>{personaje.nombre}</p>
